@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TechChallenge2.Data": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
