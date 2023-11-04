@@ -1,23 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
-using TechChallenge2.Application.Services;
-using TechChallenge2.Data.Repositories;
+﻿using TechChallenge2.Application.Services;
 using TechChallenge2.Domain.Interfaces.Repositories;
 using Moq;
 using TechChallenge2.Domain.Entities;
-using TechChallenge2.Domain.Interfaces.Services;
 using AutoMapper;
 using Xunit.Abstractions;
-using TechChallenge.Api.IoC;
 using TechChallenge2.Domain.Entities.Request;
-using TechChallenge2.Identity.Data.Dtos;
-using TechChallenge2.Identity.Models;
-using TechChallenge2.Domain.Entities.Response;
-using TechChallenge2.Domain.Exceptions;
 using ValidationContext = System.ComponentModel.DataAnnotations.ValidationContext;
 using System.ComponentModel.DataAnnotations;
 

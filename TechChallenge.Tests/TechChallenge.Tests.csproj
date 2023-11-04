@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TechChallenge2.Api\TechChallenge2.Api.csproj" />
     <ProjectReference Include="..\TechChallenge2.Application\TechChallenge2.Application.csproj" />
     <ProjectReference Include="..\TechChallenge2.Data\TechChallenge2.Data.csproj" />
     <ProjectReference Include="..\TechChallenge2.Domain\TechChallenge2.Domain.csproj" />
