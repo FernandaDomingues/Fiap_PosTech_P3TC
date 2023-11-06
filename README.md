@@ -4,8 +4,8 @@ Projeto para a segunda fase da Pós Tech em Arquitetura de Sistemas.
 
 ## Visão Geral
 
-Este é um projeto para a segunda fase da Pós Tech. A proposta do projeto é que seja criado um blog de notícias, e que sejam utilizadas ferramentas vistas em aula, como o GitHub Actions e containers com ACR e ACI.
-O projeto será uma web API, que tem acesso ao banco de dados SQL, onde as notícias serão armazenadas. A API fará o gerenciamento de notícias e de usuários. O projeto ficará alocado em um container no Azure, e terá a pipeline automatizada por meio do GitHub Actions.
+Este é um projeto para a terceira fase da Pós Tech. A proposta do projeto é que seja criado um blog de notícias, e que sejam utilizadas ferramentas vistas em aula, como o GitHub Actions, Application insights e testes unitários e de integração.
+O projeto será uma web API, que tem acesso ao banco de dados SQL, onde as notícias serão armazenadas. A API fará o gerenciamento de notícias e de usuários. O projeto terá a pipeline automatizada por meio do GitHub Actions.
 Para mais informações, consultar a documentação do projeto.
 
 ## Pré-requisitos
