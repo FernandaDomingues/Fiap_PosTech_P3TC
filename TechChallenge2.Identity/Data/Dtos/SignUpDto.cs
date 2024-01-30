@@ -10,6 +10,9 @@ namespace TechChallenge2.Identity.Data.Dtos
         public DateTime DateBirth { get; set; }
 
         [Required]
+        public string Email { get; set; }
+
+        [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
         [Required]

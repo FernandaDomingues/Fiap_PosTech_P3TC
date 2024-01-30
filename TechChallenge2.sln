@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallenge2.Application"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallenge2.Identity", "TechChallenge2.Identity\TechChallenge2.Identity.csproj", "{5640869E-8803-4F11-A924-96C2FA55D0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechChallenge.Tests", "TechChallenge.Tests\TechChallenge.Tests.csproj", "{C2E06337-5DBF-4326-AB94-F11090C8FB8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallenge.Tests", "TechChallenge.Tests\TechChallenge.Tests.csproj", "{C2E06337-5DBF-4326-AB94-F11090C8FB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechChallenge2.Consumer", "TechChallenge2.Consumer\TechChallenge2.Consumer.csproj", "{F081BAC8-836F-4134-B13D-EA73107E1DEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C2E06337-5DBF-4326-AB94-F11090C8FB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E06337-5DBF-4326-AB94-F11090C8FB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E06337-5DBF-4326-AB94-F11090C8FB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F081BAC8-836F-4134-B13D-EA73107E1DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F081BAC8-836F-4134-B13D-EA73107E1DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F081BAC8-836F-4134-B13D-EA73107E1DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F081BAC8-836F-4134-B13D-EA73107E1DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

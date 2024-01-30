@@ -14,8 +14,8 @@ namespace TechChallenge2.Api.Config
                 var serviceData = serviceScope.ServiceProvider.GetService<DataContext>();
                 var serviceIdentity = serviceScope.ServiceProvider.GetService<IdentityDataContext>();
 
-                serviceData.Database.Migrate();
-                serviceIdentity.Database.Migrate();
+                //serviceData.Database.Migrate();
+               // serviceIdentity.Database.Migrate();
             }
         }
     }

@@ -1,8 +1,6 @@
-using Microsoft.Extensions.Configuration;
+using MassTransit;
 using TechChallenge.Api.IoC;
 using TechChallenge2.Api.Config;
-using TechChallenge2.Data;
-using TechChallenge2.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +13,17 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationInsightsTelemetry();
 
 builder.Services.RegisterServices(builder.Configuration);
+
+var configuration = builder.Configuration;
+var conexao = configuration.GetSection("AzureServiceBus")["Conexao"] ?? string.Empty;
+
+builder.Services.AddMassTransit((x =>
+{
+    x.UsingAzureServiceBus((context, cfg) =>
+    {
+        cfg.Host(conexao);
+    });
+}));
 
 var app = builder.Build();
 
